@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ahmed Elsayed | QA Engineer</title>
+<title>Ahmed Elsayed | Software Quality Control Engineer</title>
 <style>
-:root{--g1:#10b981;--g2:#059669;--g3:#047857;--ink:#0f2f26;--soft:#ecfdf5;--card:#ffffff;--accent:#0ea5e9}
+:root{--g1:#5eead4;--g2:#0f766e;--g3:#115e59;--h1:#0f766e;--tint:#ccfbf1;--accent:#4f46e5;--mesh:radial-gradient(60% 80% at 12% 105%,rgba(62,92,200,.6),transparent 62%),radial-gradient(50% 60% at 88% 0%,rgba(120,220,200,.38),transparent 62%),radial-gradient(55% 70% at 55% 55%,rgba(40,150,155,.55),transparent 70%),linear-gradient(135deg,#1f7a82,#17606d)}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;color:var(--ink);background:var(--soft);line-height:1.6}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;color:#f3f4f6;background:#1a1a1a;line-height:1.6}
 a{color:inherit;text-decoration:none}
 a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 nav{position:sticky;top:0;z-index:10;background:var(--g2);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.15)}
@@ -17,14 +17,14 @@ nav b{font-size:1.05rem}
 nav ul{display:flex;gap:22px;list-style:none;flex-wrap:wrap}
 nav li a{font-weight:600;font-size:.95rem;opacity:.95}
 nav li a:hover{opacity:1;text-decoration:underline}
-.hero{background:linear-gradient(135deg,var(--g1),var(--g3));color:#fff;padding:70px 20px 80px}
+.hero{background:var(--mesh);color:#fff;padding:70px 20px 80px}
 .hero .in{max-width:1100px;margin:auto;display:flex;align-items:center;gap:56px;flex-wrap:wrap;justify-content:center}
-.photo{width:280px;height:280px;border-radius:50%;border:8px solid rgba(255,255,255,.35);box-shadow:0 0 0 12px rgba(255,255,255,.12);background:#d1fae5;color:var(--g3);display:grid;place-items:center;font-size:4rem;font-weight:700;overflow:hidden;flex:none}
+.photo{width:280px;height:280px;border-radius:50%;border:8px solid rgba(255,255,255,.35);box-shadow:0 0 0 12px rgba(255,255,255,.12);background:#ccfbf1;color:var(--g3);display:grid;place-items:center;font-size:4rem;font-weight:700;overflow:hidden;flex:none}
 .photo img{width:100%;height:100%;object-fit:cover}
-.badge{display:inline-block;background:#fff;color:#1d4ed8;font-size:.8rem;font-weight:700;padding:4px 14px;border-radius:999px}
+.badge{display:inline-block;background:#fff;color:#0f766e;font-size:.8rem;font-weight:700;padding:4px 14px;border-radius:999px}
 .txt{max-width:560px}
 h1{font-size:clamp(2.2rem,6vw,3.4rem);line-height:1.1;margin:14px 0 10px;text-shadow:0 2px 8px rgba(0,0,0,.2)}
-.role{font-size:1.35rem;font-weight:700;color:#a7f3d0;margin-bottom:16px}
+.role{font-size:1.35rem;font-weight:700;color:var(--tint);margin-bottom:16px}
 .tag{font-size:1.05rem;margin-bottom:20px}
 .pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
 .pill{background:rgba(255,255,255,.18);padding:8px 16px;border-radius:999px;font-size:.92rem}
@@ -34,15 +34,114 @@ h1{font-size:clamp(2.2rem,6vw,3.4rem);line-height:1.1;margin:14px 0 10px;text-sh
 .btn.b{background:var(--accent);color:#fff}
 .open{margin-top:18px;font-size:.9rem;opacity:.85}
 section.s{max-width:1100px;margin:auto;padding:64px 20px}
-h2{font-size:1.9rem;color:var(--g3);margin-bottom:28px}
+h2{font-size:1.9rem;color:#fff;margin-bottom:28px;text-align:center;padding-bottom:16px;border-bottom:1px solid;border-image:linear-gradient(90deg,transparent,var(--g1),transparent) 1}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
-.card{background:var(--card);border-radius:14px;padding:24px;box-shadow:0 4px 16px rgba(4,120,87,.12);border-top:4px solid var(--g1)}
+.card{background:#222;border:1px solid #333;border-left:4px solid var(--g1);border-radius:14px;padding:22px}
+.card p,.card li{color:#e5e7eb}
+.card a{text-decoration:underline}
 .card h3{font-size:1.1rem;margin-bottom:4px}
-.meta{font-size:.85rem;color:#047857;font-weight:600;margin-bottom:10px}
+.meta{font-size:.85rem;color:var(--g1);font-weight:600;margin-bottom:10px}
 .card ul{padding-left:18px}
 .card li{margin-bottom:4px}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
-.chip{background:#fff;border:2px solid var(--g1);color:var(--g3);padding:8px 16px;border-radius:999px;font-weight:600;font-size:.92rem}
+.chip{background:#2a2a3a;border:1px solid #3b3b52;color:var(--g1);padding:8px 16px;border-radius:999px;font-weight:600;font-size:.92rem}
+.sub{font-size:1.15rem;color:#fff;margin:34px 0 14px}
+.exp{background:#1a1a1a;color:#f3f4f6;padding:64px 20px 40px}
+.exp .in{max-width:760px;margin:auto}
+.exp h2{color:#fff;text-align:center;margin-bottom:6px;display:flex;align-items:center;justify-content:center;gap:12px}
+.exp h2 svg{width:34px;height:34px;fill:var(--g1)}
+.exp .subt{text-align:center;color:#d1d5db;margin-bottom:22px}
+.exp hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--g1),transparent);margin-bottom:34px}
+.ecard{background:#222;border:1px solid #333;border-radius:22px;padding:28px;position:relative}
+.cur{position:absolute;top:22px;right:22px;background:var(--h1);color:#fff;font-size:.78rem;font-weight:700;padding:6px 14px;border-radius:999px}
+.ehead{display:flex;gap:16px;align-items:center;padding-bottom:16px;border-bottom:1px solid #333;margin-bottom:16px;padding-right:90px}
+.logo{width:64px;height:64px;border-radius:12px;background:#fff;color:var(--g3);font-weight:800;display:grid;place-items:center;flex:none}
+.ehead h3{font-size:1.25rem;color:#fff}
+.co{color:var(--g1);font-weight:700}
+.date{font-size:.88rem;color:#d1d5db;margin-bottom:8px}
+.ecard h4{font-size:.85rem;letter-spacing:.02em;margin:22px 0 10px;color:#fff}
+.ecard ul{list-style:none;padding:0}
+.ecard li{position:relative;padding-left:20px;margin-bottom:10px;color:#e5e7eb;font-size:.95rem}
+.ecard li::before{content:"";position:absolute;left:2px;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--g1)}
+.tech{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.tech span{background:#2a2a3a;border:1px solid #3b3b52;color:var(--g1);padding:7px 16px;border-radius:999px;font-size:.85rem;font-weight:600}
+@media(max-width:560px){.ehead{padding-right:0;flex-wrap:wrap}.cur{position:static;display:inline-block;margin-bottom:14px}}
+.proj{background:#1a1a1a;color:#f3f4f6;padding:24px 20px 72px}
+.proj .in{max-width:1100px;margin:auto}
+.proj h2{color:#fff;text-align:center;margin-bottom:6px;display:flex;align-items:center;justify-content:center;gap:12px}
+.proj h2 svg{width:34px;height:34px;fill:var(--g1)}
+.proj .subt{text-align:center;color:#d1d5db;margin-bottom:22px}
+.proj hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--g1),transparent);margin-bottom:34px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.pcard{background:#222;border:1px solid #333;border-left:4px solid var(--g1);border-radius:14px;padding:22px}
+.pcard h3{color:#fff;font-size:1.1rem;margin-bottom:10px}
+.bdg{display:inline-block;background:var(--h1);color:#fff;font-size:.72rem;font-weight:700;padding:4px 12px;border-radius:999px;margin-bottom:8px}
+.prole{color:var(--g1);font-size:.85rem;font-weight:600;padding-bottom:12px;border-bottom:1px solid #333;margin-bottom:14px}
+.pcard p{font-size:.9rem;color:#e5e7eb}
+.pcard h4{font-size:.8rem;margin:18px 0 10px;color:#fff}
+.pcard ul{list-style:none;padding:0}
+.pcard li{position:relative;padding-left:18px;margin-bottom:8px;color:#e5e7eb;font-size:.88rem}
+.pcard li::before{content:"";position:absolute;left:2px;top:.6em;width:5px;height:5px;border-radius:50%;background:var(--g1)}
+.pcard .tech{margin-top:14px}
+.pcard .tech span{font-size:.75rem;padding:5px 12px}
+.subt2{margin:-12px 0 26px;color:#d1d5db;text-align:center}
+.about{max-width:760px;margin:auto}
+.about p{margin-bottom:16px;font-size:1.05rem;color:#e5e7eb}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-top:30px}
+.stat{background:#222;border:1px solid #333;border-radius:14px;padding:18px;text-align:center}
+.stat b{display:block;font-size:2rem;color:var(--g1)}
+.stat span{font-size:.85rem;color:#d1d5db}
+.contact{background:#1a1a1a}
+.chead{background:var(--mesh);text-align:center;color:#fff;padding:44px 20px 52px}
+.cmark{width:60px;height:60px;border-radius:16px;background:rgba(255,255,255,.25);display:grid;place-items:center;font-weight:800;font-size:1.3rem;margin:0 auto 16px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.chead h2{border:0;border-image:none;padding:0;margin-bottom:10px;font-size:2rem}
+.chead p{max-width:460px;margin:auto;opacity:.85;font-size:.92rem}
+.chead i{display:block;width:50px;height:3px;background:#fff;margin:20px auto 0;border-radius:2px}
+.cbody{max-width:1000px;margin:auto;padding:12px 20px 64px}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}
+.cc{display:block;background:#202020;border-radius:14px;padding:22px 14px;text-align:center;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.4);transition:transform .2s}
+.cc:hover{transform:translateY(-3px)}
+.ci{width:42px;height:42px;border-radius:10px;display:grid;place-items:center;margin:0 auto 12px;color:#fff;font-weight:800;font-size:.7rem}
+.ci svg{width:22px;height:22px;fill:#fff}
+.cc b{display:block;font-size:.92rem}
+.cc span{font-size:.78rem;color:#d1d5db}
+.pill2{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;background:#202020;border:1px solid #333;border-radius:14px;padding:14px 24px;max-width:520px;margin:40px auto 0;font-size:.88rem;font-weight:600}
+.social{text-align:center;margin-top:46px}
+.social h3{color:var(--g1);font-size:1.5rem}
+.social p{font-size:.85rem;color:#d1d5db;margin-bottom:16px}
+.social .row{display:flex;gap:14px;justify-content:center}
+.social a{width:48px;height:48px;border-radius:50%;background:#202020;border:1px solid #333;display:grid;place-items:center}
+.social a svg{width:22px;height:22px;fill:var(--g1)}
+.bar{position:fixed;top:0;left:0;height:3px;width:0;z-index:30;background:linear-gradient(90deg,#5eead4,#818cf8)}
+nav li a{padding:6px 12px;border-radius:8px;transition:background .25s}
+nav li a.act{background:rgba(255,255,255,.22)}
+.hero{position:relative;overflow:hidden}
+.hero .in{position:relative;z-index:1}
+.bub{position:absolute;border-radius:50%;background:rgba(255,255,255,.09);animation:float 9s ease-in-out infinite alternate}
+.b1{width:260px;height:260px;top:-70px;left:6%}
+.b2{width:150px;height:150px;top:38%;left:46%;animation-duration:11s}
+.b3{width:200px;height:200px;bottom:-60px;right:8%;animation-duration:13s}
+@keyframes float{to{transform:translate(18px,-26px) scale(1.06)}}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+@keyframes ring{50%{box-shadow:0 0 0 20px rgba(255,255,255,.05)}}
+.hero .txt>*{animation:rise .7s ease both}
+.hero .txt>:nth-child(2){animation-delay:.1s}.hero .txt>:nth-child(3){animation-delay:.2s}
+.hero .txt>:nth-child(4){animation-delay:.3s}.hero .txt>:nth-child(5){animation-delay:.4s}
+.hero .txt>:nth-child(6){animation-delay:.5s}.hero .txt>:nth-child(7){animation-delay:.6s}
+.hero .badge{animation:rise .7s ease both}
+.photo{animation:pop .9s cubic-bezier(.2,.8,.2,1) both,ring 4s ease-in-out 1s infinite}
+.btn{transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.card,.pcard,.stat,.ecard{transition:transform .25s,box-shadow .25s}
+.card:hover,.pcard:hover,.stat:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(94,234,212,.2)}
+.chip,.tech span{transition:transform .2s}
+.chip:hover,.tech span:hover{transform:translateY(-2px)}
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
+h1{font-weight:300;letter-spacing:.05em;text-transform:uppercase}
+.chead h2{font-weight:300;letter-spacing:.06em}
 footer{background:var(--g3);color:#fff;text-align:center;padding:48px 20px}
 footer h2{color:#fff;margin-bottom:12px}
 footer p{margin-bottom:18px}
@@ -51,84 +150,320 @@ footer p{margin-bottom:18px}
 </style>
 </head>
 <body>
+<div class="bar"></div>
 
 <nav><div class="in">
   <b>Ahmed Elsayed</b>
   <ul>
     <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certifications</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </div></nav>
 
-<header class="hero" id="home"><div class="in">
+<header class="hero" id="home"><i class="bub b1"></i><i class="bub b2"></i><i class="bub b3"></i><div class="in">
   <div class="photo"><img src="photo.jpg" alt="Ahmed Elsayed"></div>
   <div class="txt">
     <span class="badge">4+ Years Experience</span>
     <h1>Ahmed Elsayed</h1>
-    <div class="role">QA Engineer | Manual &amp; Automation Testing</div>
-    <p class="tag">Delivering reliable software for businesses and government clients.</p>
+    <div class="role">Software Quality Control Engineer | Manual &amp; Automation Testing</div>
+    <p class="tag">Testing ERP, CRM, and mobile applications with Selenium, Postman, and Azure DevOps in Agile teams.</p>
     <div class="pills">
       <span class="pill">Alexandria, Egypt</span>
       <span class="pill">ahmed.moha.sayed@gmail.com</span>
+      <span class="pill">+20 120 159 8939</span>
     </div>
     <div class="btns">
-      <a class="btn w" href="cv.pdf" download>Download CV</a>
+      <a class="btn w" href="cv.pdf" target="_blank" rel="noopener" download="Ahmed-Elsayed-CV.pdf">Download CV</a>
       <a class="btn b" href="https://linkedin.com/in/ahmed-moh-elsayed" target="_blank" rel="noopener">Connect</a>
     </div>
-    <p class="open">Open to QA opportunities</p>
+    <p class="open">Open to QC opportunities</p>
   </div>
 </div></header>
 
-<section class="s" id="experience">
-  <h2>Experience</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>QA Engineer</h3>
-      <div class="meta">Jan 2022 – Present</div>
-      <ul>
-        <li>Manual testing of a B2B and government-facing product</li>
-        <li>Test case design, execution, bug reporting, and regression testing</li>
-        <li>Worked in Agile teams</li>
-        <li>About 1 year of test automation</li>
-      </ul>
+<section class="s" id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    <p>Software Quality Control Engineer with 4+ years of experience in manual and automation testing across ERP, CRM, and mobile applications. Skilled in test design, regression and UAT, API testing with Postman, and Selenium automation, with defect management in Azure DevOps. Delivered measurable impact: 85+ critical defects caught before release, 40% higher regression coverage, and 30% faster regression execution. Committed to continuous learning and close collaboration with developers to deliver high-quality releases.</p>
+    <div class="stats">
+      <div class="stat"><b>4+</b><span>Years of experience</span></div>
+      <div class="stat"><b>150+</b><span>Test cases designed</span></div>
+      <div class="stat"><b>85+</b><span>Critical defects reported</span></div>
+      <div class="stat"><b>50+</b><span>Automated scripts</span></div>
     </div>
   </div>
 </section>
 
-<section class="s" id="projects">
-  <h2>Projects</h2>
+<section class="exp" id="experience"><div class="in">
+  <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2h4a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v4H2V8a2 2 0 0 1 2-2h4V4a2 2 0 0 1 2-2zm0 2v2h4V4h-4zM2 14h7v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1h7v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4z"/></svg>Work Experience</h2>
+  <p class="subt">4+ years of professional journey</p>
+  <hr>
+  <div class="ecard">
+    <span class="cur">Current</span>
+    <div class="ehead">
+      <div class="logo">T&amp;S</div>
+      <div><h3>Quality Control Engineer</h3><div class="co">T&amp;S Co.</div></div>
+    </div>
+    <div class="date">Jan 2022 - Present</div>
+    <p>Software testing across ERP, CRM, and mobile applications: Monshaat ERP, Monshaat ERP App, MoEnergy Resource Allocation, and HRSD CRM (Pega).</p>
+    <h4>KEY RESPONSIBILITIES</h4>
+    <ul>
+      <li>Designed and executed 150+ test cases covering core ERP modules</li>
+      <li>Performed functional and regression testing to validate system stability</li>
+      <li>Conducted end-to-end testing for mobile ERP features</li>
+      <li>Developed 50+ automated test scripts using Selenium</li>
+      <li>Led User Acceptance Testing (UAT) with business stakeholders</li>
+      <li>Prepared detailed test reports and defect summaries to ensure production readiness</li>
+    </ul>
+    <h4>ACHIEVEMENTS</h4>
+    <ul>
+      <li>Identified and reported 85+ critical defects before production release</li>
+      <li>Reduced defect resolution time by 20% through closer collaboration with developers</li>
+      <li>Increased regression test coverage by 40%</li>
+      <li>Reduced regression suite execution time by 30%</li>
+    </ul>
+    <div class="tech">
+      <span>Selenium</span><span>SpecFlow</span><span>Postman</span><span>Azure DevOps</span>
+      <span>SQL Server</span><span>Agile / Scrum</span><span>Pega</span>
+    </div>
+  </div>
+</div></section>
+
+<section class="proj" id="projects"><div class="in">
+  <h2><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z"/></svg>Projects</h2>
+  <p class="subt">Projects tested at T&amp;S Co.</p>
+  <hr>
+  <div class="pgrid">
+    <div class="pcard">
+      <h3>Monshaat ERP</h3>
+      <span class="bdg">Manual Testing</span>
+      <div class="prole">Quality Control Engineer</div>
+      <p>Functional and regression testing of the core modules of an ERP system.</p>
+      <h4>KEY HIGHLIGHTS</h4>
+      <ul><li>Designed and executed 150+ test cases</li><li>Validated system stability through regression testing</li><li>Reduced defect resolution time by 20%</li></ul>
+      <h4>TECHNOLOGIES</h4>
+      <div class="tech"><span>Manual Testing</span><span>Functional Testing</span><span>Regression Testing</span></div>
+    </div>
+    <div class="pcard">
+      <h3>Monshaat ERP App</h3>
+      <span class="bdg">Manual Testing</span>
+      <div class="prole">Quality Control Engineer</div>
+      <p>End-to-end testing of the mobile version of the ERP system.</p>
+      <h4>KEY HIGHLIGHTS</h4>
+      <ul><li>Tested mobile ERP features end to end</li><li>Reported 85+ critical defects before production release</li><li>Ensured compliance with business and user acceptance requirements</li></ul>
+      <h4>TECHNOLOGIES</h4>
+      <div class="tech"><span>Manual Testing</span><span>Mobile Testing</span><span>End-to-End</span></div>
+    </div>
+    <div class="pcard">
+      <h3>MoEnergy Resource Allocation</h3>
+      <span class="bdg">Automation Testing</span>
+      <div class="prole">Quality Control Engineer</div>
+      <p>Automated regression suite for the resource allocation system.</p>
+      <h4>KEY HIGHLIGHTS</h4>
+      <ul><li>Developed 50+ automated test scripts</li><li>Increased regression test coverage by 40%</li><li>Reduced regression execution time by 30%</li></ul>
+      <h4>TECHNOLOGIES</h4>
+      <div class="tech"><span>Selenium</span><span>Automation Testing</span><span>Regression Testing</span></div>
+    </div>
+    <div class="pcard">
+      <h3>HRSD CRM (Pega)</h3>
+      <span class="bdg">UAT &amp; Manual Testing</span>
+      <div class="prole">Quality Control Engineer</div>
+      <p>Delivery phase testing of a Pega-based CRM system.</p>
+      <h4>KEY HIGHLIGHTS</h4>
+      <ul><li>Led User Acceptance Testing with business stakeholders</li><li>Prepared detailed test reports and defect summaries</li><li>Ensured production readiness before deployment</li></ul>
+      <h4>TECHNOLOGIES</h4>
+      <div class="tech"><span>UAT</span><span>Manual Testing</span><span>Pega</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="s" id="personal">
+  <h2>Personal Projects</h2>
+  <p class="subt2">Side projects outside of testing</p>
   <div class="grid">
     <div class="card">
       <h3>Sign Language Recognition</h3>
       <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/Sign_Language_Rec">View on GitHub</a></div>
-      <p>Web app that translates word-level ASL signs to text.</p>
+      <p>ITI graduation project: recognizes hand gestures and turns them into text to help deaf people communicate.</p>
+    </div>
+    <div class="card">
+      <h3>Intelligent Sales System (ISS)</h3>
+      <div class="meta">University graduation project · Excellent</div>
+      <p>Desktop ERP application that simplifies sales transactions.</p>
     </div>
     <div class="card">
       <h3>Titanic ML Project with MLflow</h3>
       <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/TiTanic_ML_Project_With_MlFlow">View on GitHub</a></div>
-      <p>Machine learning project with experiment tracking using MLflow.</p>
+      <p>Machine learning project with experiment tracking in MLflow.</p>
     </div>
   </div>
 </section>
 
 <section class="s" id="skills">
   <h2>Skills</h2>
+  <h3 class="sub">Testing</h3>
   <div class="chips">
-    <span class="chip">Manual Testing</span><span class="chip">Test Case Design</span>
-    <span class="chip">Regression Testing</span><span class="chip">Bug Reporting</span>
-    <span class="chip">Agile / Scrum</span><span class="chip">Test Planning</span>
-    <span class="chip">Test Automation</span><span class="chip">API Testing</span>
+    <span class="chip">Test Case Design</span><span class="chip">Functional Testing</span>
+    <span class="chip">Regression Testing</span><span class="chip">System Testing</span>
+    <span class="chip">Smoke Testing</span><span class="chip">UAT</span><span class="chip">API Testing</span>
+  </div>
+  <h3 class="sub">Automation</h3>
+  <div class="chips">
+    <span class="chip">Selenium WebDriver</span><span class="chip">SpecFlow</span><span class="chip">Test Script Development</span>
+  </div>
+  <h3 class="sub">Tools</h3>
+  <div class="chips">
+    <span class="chip">Azure DevOps</span><span class="chip">Postman</span><span class="chip">Visual Studio</span>
+    <span class="chip">VS Code</span><span class="chip">Git</span><span class="chip">SQL Server</span>
+  </div>
+  <h3 class="sub">Programming</h3>
+  <div class="chips"><span class="chip">C</span><span class="chip">Python</span><span class="chip">Java</span></div>
+  <h3 class="sub">Methodologies</h3>
+  <div class="chips">
+    <span class="chip">Agile / Scrum</span><span class="chip">STLC</span><span class="chip">Defect Lifecycle</span>
   </div>
 </section>
 
-<footer id="contact">
-  <h2>Contact</h2>
-  <p>Open to QA roles. Let's talk.</p>
-  <a class="btn w" href="mailto:ahmed.moha.sayed@gmail.com">Email me</a>
-</footer>
+<section class="s" id="education">
+  <h2>Education &amp; Training</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Artificial Intelligence Pro</h3>
+      <div class="meta">Information Technology Institute (ITI) · Apr 2021 – Jan 2022</div>
+    </div>
+    <div class="card">
+      <h3>B.Sc. Computers &amp; Information</h3>
+      <div class="meta">Kafr El-Sheikh University · 2015 – 2019</div>
+      <p>GPA 3.74, Excellent with honors.</p>
+    </div>
+    <div class="card">
+      <h3>Training</h3>
+      <ul>
+        <li>Testing Training at Software Quality Academy</li>
+        <li>C# Training</li>
+        <li>ASP.NET at Microsoft Smart Village, Cairo</li>
+        <li>Trainee at Innove Egypt, Borg El Arab</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<section class="s" id="certifications">
+  <h2>Certifications</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Postman From Zero To Hero</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Ahmed%20Mohamed%20Sayed-Postman.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Pega Certified System Architect 8.6</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/CERTIFICATION_Pega%20Certified%20System%20Architect_8.6.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>ITI Certificate</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/ITI%20Certificate.png" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Java Development SE</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Java%20Development%20SE.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Database Fundamentals</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Database%20Fundamentals.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Introduction to SQL</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Introduction%20to%20SQL.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Introduction to Power BI</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Introduction%20to%20Power%20BI.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Data Science Track</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Data%20Science%20Track.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Data Visualization</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Data%20Visualization.png" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Statistics Fundamentals with Python</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Statistics%20Fundamentals%20with%20Python.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Introduction to Deep Learning with Keras</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/introduction%20to%20deep%20learning%20with%20keras.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>Introduction to the Internet of Things</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/Introduction%20to%20the%20internet%20of%20things.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+    <div class="card">
+      <h3>IoT Applications using MOT Platform</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/My-Certificates/blob/main/IoT%20Applications%20%20using%20MOT%20platform.pdf" target="_blank" rel="noopener">View certificate</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="chead">
+    <div class="cmark">AE</div>
+    <h2>Let's Connect</h2>
+    <p>Always open to discussing new opportunities and quality control collaborations.</p>
+    <i></i>
+  </div>
+  <div class="cbody">
+    <div class="cgrid">
+      <a class="cc" href="cv.pdf" target="_blank" rel="noopener" download="Ahmed-Elsayed-CV.pdf"><div class="ci" style="background:#dc2f45">PDF</div><b>Download CV</b><span>Get the latest resume</span></a>
+      <a class="cc" href="mailto:ahmed.moha.sayed@gmail.com"><div class="ci" style="background:#0f766e"><svg viewBox="0 0 24 24"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.4l-10 6.2L2 6.4zm0 2.8V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8.8l-10 6.2z"/></svg></div><b>Send Email</b><span>Drop a message</span></a>
+      <a class="cc" href="https://wa.me/201201598939" target="_blank" rel="noopener"><div class="ci" style="background:#25d366"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.8-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.4 0 .1 0 .7-.2 1.3z"/></svg></div><b>WhatsApp</b><span>Chat instantly</span></a>
+      <a class="cc" href="https://linkedin.com/in/ahmed-moh-elsayed" target="_blank" rel="noopener"><div class="ci" style="background:#0a85c8"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg></div><b>LinkedIn</b><span>Professional network</span></a>
+    </div>
+    <div class="pill2"><span>+20 120 159 8939</span><span>Alexandria, Egypt</span></div>
+    <div class="social">
+      <h3>Connect on Social Media</h3>
+      <p>Follow the work and stay updated</p>
+      <div class="row">
+        <a href="https://github.com/Ahmed-Moh-Sayed" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.600 9.600 0 0 1 5 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a>
+        <a href="https://linkedin.com/in/ahmed-moh-elsayed" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+var d=document,rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+d.documentElement.classList.add('js');
+var bar=d.querySelector('.bar');
+function sc(){var h=d.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'}
+addEventListener('scroll',sc,{passive:true});sc();
+var links={};
+d.querySelectorAll('nav li a').forEach(function(a){links[a.hash.slice(1)]=a});
+var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
+Object.keys(links).forEach(function(k){links[k].classList.remove('act')});
+if(links[e.target.id])links[e.target.id].classList.add('act')}})},{rootMargin:'-45% 0px -50% 0px'});
+d.querySelectorAll('header[id],section[id]').forEach(function(x){so.observe(x)});
+if(rm)return;
+var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
+var el=e.target;el.classList.add('in');ro.unobserve(el);
+setTimeout(function(){el.classList.remove('rv','in');el.style.transitionDelay=''},1300)}})},{threshold:.12});
+d.querySelectorAll('section h2,.subt,.subt2,.about p,.stat,.ecard,.pcard,.card,.chip,.sub,.cc,.pill2,.social').forEach(function(el){
+var i=[].indexOf.call(el.parentElement.children,el);
+el.style.transitionDelay=Math.min(i,6)*70+'ms';
+el.classList.add('rv');ro.observe(el)});
+var co=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
+co.unobserve(e.target);var b=e.target,t=b.textContent,n=parseInt(t),suf=t.replace(n,''),st=null;
+(function f(ts){st=st||ts;var p=Math.min((ts-st)/1400,1);
+b.textContent=Math.round(n*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(f)})(performance.now())}})},{threshold:.6});
+d.querySelectorAll('.stat b').forEach(function(b){co.observe(b)});
+})();
+</script>
 </body>
 </html>
