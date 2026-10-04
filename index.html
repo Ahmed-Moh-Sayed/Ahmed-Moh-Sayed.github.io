@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Elsayed | QA Engineer</title>
+<style>
+:root{--g1:#10b981;--g2:#059669;--g3:#047857;--ink:#0f2f26;--soft:#ecfdf5;--card:#ffffff;--accent:#0ea5e9}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;color:var(--ink);background:var(--soft);line-height:1.6}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+nav{position:sticky;top:0;z-index:10;background:var(--g2);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+nav .in{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+nav b{font-size:1.05rem}
+nav ul{display:flex;gap:22px;list-style:none;flex-wrap:wrap}
+nav li a{font-weight:600;font-size:.95rem;opacity:.95}
+nav li a:hover{opacity:1;text-decoration:underline}
+.hero{background:linear-gradient(135deg,var(--g1),var(--g3));color:#fff;padding:70px 20px 80px}
+.hero .in{max-width:1100px;margin:auto;display:flex;align-items:center;gap:56px;flex-wrap:wrap;justify-content:center}
+.photo{width:280px;height:280px;border-radius:50%;border:8px solid rgba(255,255,255,.35);box-shadow:0 0 0 12px rgba(255,255,255,.12);background:#d1fae5;color:var(--g3);display:grid;place-items:center;font-size:4rem;font-weight:700;overflow:hidden;flex:none}
+.photo img{width:100%;height:100%;object-fit:cover}
+.badge{display:inline-block;background:#fff;color:#1d4ed8;font-size:.8rem;font-weight:700;padding:4px 14px;border-radius:999px}
+.txt{max-width:560px}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);line-height:1.1;margin:14px 0 10px;text-shadow:0 2px 8px rgba(0,0,0,.2)}
+.role{font-size:1.35rem;font-weight:700;color:#a7f3d0;margin-bottom:16px}
+.tag{font-size:1.05rem;margin-bottom:20px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.pill{background:rgba(255,255,255,.18);padding:8px 16px;border-radius:999px;font-size:.92rem}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:12px 24px;border-radius:10px;font-weight:700;display:inline-block}
+.btn.w{background:#fff;color:var(--ink)}
+.btn.b{background:var(--accent);color:#fff}
+.open{margin-top:18px;font-size:.9rem;opacity:.85}
+section.s{max-width:1100px;margin:auto;padding:64px 20px}
+h2{font-size:1.9rem;color:var(--g3);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.card{background:var(--card);border-radius:14px;padding:24px;box-shadow:0 4px 16px rgba(4,120,87,.12);border-top:4px solid var(--g1)}
+.card h3{font-size:1.1rem;margin-bottom:4px}
+.meta{font-size:.85rem;color:#047857;font-weight:600;margin-bottom:10px}
+.card ul{padding-left:18px}
+.card li{margin-bottom:4px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:#fff;border:2px solid var(--g1);color:var(--g3);padding:8px 16px;border-radius:999px;font-weight:600;font-size:.92rem}
+footer{background:var(--g3);color:#fff;text-align:center;padding:48px 20px}
+footer h2{color:#fff;margin-bottom:12px}
+footer p{margin-bottom:18px}
+@media(max-width:700px){.photo{width:200px;height:200px}.hero .in{gap:32px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav><div class="in">
+  <b>Ahmed Elsayed</b>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<header class="hero" id="home"><div class="in">
+  <div class="photo"><img src="photo.jpg" alt="Ahmed Elsayed"></div>
+  <div class="txt">
+    <span class="badge">4+ Years Experience</span>
+    <h1>Ahmed Elsayed</h1>
+    <div class="role">QA Engineer | Manual &amp; Automation Testing</div>
+    <p class="tag">Delivering reliable software for businesses and government clients.</p>
+    <div class="pills">
+      <span class="pill">Alexandria, Egypt</span>
+      <span class="pill">ahmed.moha.sayed@gmail.com</span>
+    </div>
+    <div class="btns">
+      <a class="btn w" href="cv.pdf" download>Download CV</a>
+      <a class="btn b" href="https://linkedin.com/in/ahmed-moh-elsayed" target="_blank" rel="noopener">Connect</a>
+    </div>
+    <p class="open">Open to QA opportunities</p>
+  </div>
+</div></header>
+
+<section class="s" id="experience">
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>QA Engineer</h3>
+      <div class="meta">Jan 2022 – Present</div>
+      <ul>
+        <li>Manual testing of a B2B and government-facing product</li>
+        <li>Test case design, execution, bug reporting, and regression testing</li>
+        <li>Worked in Agile teams</li>
+        <li>About 1 year of test automation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Sign Language Recognition</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/Sign_Language_Rec">View on GitHub</a></div>
+      <p>Web app that translates word-level ASL signs to text.</p>
+    </div>
+    <div class="card">
+      <h3>Titanic ML Project with MLflow</h3>
+      <div class="meta"><a href="https://github.com/Ahmed-Moh-Sayed/TiTanic_ML_Project_With_MlFlow">View on GitHub</a></div>
+      <p>Machine learning project with experiment tracking using MLflow.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="skills">
+  <h2>Skills</h2>
+  <div class="chips">
+    <span class="chip">Manual Testing</span><span class="chip">Test Case Design</span>
+    <span class="chip">Regression Testing</span><span class="chip">Bug Reporting</span>
+    <span class="chip">Agile / Scrum</span><span class="chip">Test Planning</span>
+    <span class="chip">Test Automation</span><span class="chip">API Testing</span>
+  </div>
+</section>
+
+<footer id="contact">
+  <h2>Contact</h2>
+  <p>Open to QA roles. Let's talk.</p>
+  <a class="btn w" href="mailto:ahmed.moha.sayed@gmail.com">Email me</a>
+</footer>
+
+</body>
+</html>
